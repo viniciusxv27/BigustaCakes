@@ -10,8 +10,8 @@ package dados;
  */
 public class Usuario {
 
-    private int sessao, cargo;
-    private String nome, email, TOKEN;
+    private int sessao;
+    private String cargo, nome, email, TOKEN;
 
     public int getSessao() {
         return sessao;
@@ -21,11 +21,11 @@ public class Usuario {
         this.sessao = sessao;
     }
 
-    public int getCargo() {
+    public String getCargo() {
         return cargo;
     }
 
-    public void setCargo(int cargo) {
+    public void setCargo(String cargo) {
         this.cargo = cargo;
     }
 
