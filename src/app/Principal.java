@@ -5,7 +5,7 @@
  */
 package app;
 
-import telas.Login;
+import telas.*;
 
 /**
  *
@@ -18,7 +18,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Login janela = new Login();
+        TelaPrincipal janela = new TelaPrincipal();
         janela.setVisible(true);
         
     }
