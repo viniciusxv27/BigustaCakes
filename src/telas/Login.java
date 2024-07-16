@@ -129,7 +129,6 @@ public class Login extends javax.swing.JFrame {
 
     private void esqueciaSenhaButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_esqueciaSenhaButtonMouseClicked
         // TODO add your handling code here:
-        this.setVisible(false);
         EsqueciASenha janelaEsqueciASenha = new EsqueciASenha();
         janelaEsqueciASenha.setVisible(true);
     }//GEN-LAST:event_esqueciaSenhaButtonMouseClicked
